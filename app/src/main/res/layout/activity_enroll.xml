@@ -9,8 +9,61 @@
                 tools:context="com.epicodus.breakthecode.EnrollActicity">
 
     <TextView
-        android:text="@string/hello_world"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enrollment Information"
+        android:id="@+id/infoLabel"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your name and email below and we will send you more information about enrollment."
+        android:id="@+id/infoRequestLabel"
+        android:layout_below="@+id/infoLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nameText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emailText"
+        android:layout_below="@+id/nameText"
+        android:layout_centerHorizontal="true"
+        android:hint="Email"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/submitButton"
+        android:layout_below="@+id/emailText"
+        android:layout_alignLeft="@+id/emailText"
+        android:layout_alignStart="@+id/emailText"
+        android:layout_alignRight="@+id/emailText"
+        android:layout_alignEnd="@+id/emailText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/thankYouLabel"
+        android:layout_above="@+id/emailText"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:visibility="invisible"/>
 </RelativeLayout>
