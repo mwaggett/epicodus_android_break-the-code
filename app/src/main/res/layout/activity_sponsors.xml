@@ -8,9 +8,33 @@
                 android:paddingBottom="@dimen/activity_vertical_margin"
                 tools:context="com.epicodus.breakthecode.SponsorsActivity">
 
-    <TextView
-        android:text="@string/hello_world"
+    <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/sponsorImage"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/uncorked"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uncorked Studios"
+        android:id="@+id/sponsorNameLabel"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/sponsorImage"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" A product design and development company focused on the relationship between digital environments and the physical world."
+        android:id="@+id/sponsorDescription"
+        android:layout_below="@+id/sponsorNameLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
 </RelativeLayout>
