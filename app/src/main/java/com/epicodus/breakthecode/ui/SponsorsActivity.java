@@ -1,13 +1,15 @@
-package com.epicodus.breakthecode;
+package com.epicodus.breakthecode.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class NonProfitActivity extends AppCompatActivity {
+import com.epicodus.breakthecode.R;
+
+public class SponsorsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_non_profit);
+        setContentView(R.layout.activity_sponsors);
     }
 }
