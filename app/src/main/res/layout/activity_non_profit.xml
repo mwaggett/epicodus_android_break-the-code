@@ -14,12 +14,11 @@
         android:id="@+id/partnerImage"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/app_camp_for_girls"/>
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="App Camp for Girls"
         android:id="@+id/partnerNameLabel"
         android:textColor="@android:color/black"
         android:textSize="16sp"
@@ -30,7 +29,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="App Camp For Girls is a place where girls can put their creative powers to work, designing and building apps, while learning more about the business of software and being inspired by women mentors in the field."
         android:id="@+id/partnerDescription"
         android:layout_below="@+id/partnerNameLabel"
         android:layout_marginTop="50dp"

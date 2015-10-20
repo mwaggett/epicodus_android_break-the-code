@@ -32,6 +32,7 @@ public class NonProfitActivity extends AppCompatActivity {
         mDescriptionLabel = (TextView) findViewById(R.id.partnerDescription);
         mPartnerImage = (ImageView) findViewById(R.id.partnerImage);
         mNextButton = (Button) findViewById(R.id.nextButton);
+
         mPartnerLib = new PartnerLib();
         mCurrentPartner = mPartnerLib.getPartners().get(0);
 

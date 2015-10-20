@@ -27,7 +27,7 @@ public class PartnerLib {
 
         mPartners.add(new Partner(
                 "ChickTech",
-                "ChickTech is dedicated to retaining women in the technology workforce and increasing the number of women and girls pursuing technology-based careers",
+                "ChickTech is dedicated to retaining women in the technology workforce and increasing the number of women and girls pursuing technology-based careers.",
                 "http://chicktech.org/",
                 R.drawable.chick_tech
         ));
