@@ -40,4 +40,12 @@ public class PartnerLib {
         ));
     }
 
+    public Partner nextPartner(Partner currentPartner) {
+        int index = mPartners.indexOf(currentPartner);
+        if (index == mPartners.size()-1) {
+            return mPartners.get(0);
+        } else {
+            return mPartners.get(index+1);
+        }
+    }
 }

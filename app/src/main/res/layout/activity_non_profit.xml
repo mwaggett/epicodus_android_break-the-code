@@ -37,4 +37,12 @@
         android:layout_centerHorizontal="true"
         android:textColor="@android:color/black"
         android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT PARTNER"
+        android:id="@+id/nextButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>
