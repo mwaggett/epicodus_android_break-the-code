@@ -14,12 +14,11 @@
         android:id="@+id/sponsorImage"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/uncorked"/>
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Uncorked Studios"
         android:id="@+id/sponsorNameLabel"
         android:textColor="@android:color/black"
         android:textSize="16sp"
@@ -30,11 +29,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" A product design and development company focused on the relationship between digital environments and the physical world."
         android:id="@+id/sponsorDescription"
         android:layout_below="@+id/sponsorNameLabel"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:textColor="@android:color/black"
         android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT SPONSOR"
+        android:id="@+id/nextSponsorButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>
